@@ -1,8 +1,11 @@
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
 img#bg{
     width: 100%;
     height: auto;
-    overflow: hidden;
-
     -webkit-filter: blur(9px);    
     -moz-filter: blur(9px);    
     -o-filter: blur(9px);    
@@ -11,23 +14,43 @@ img#bg{
     filter:blur(6px);
 }
 
-.font-content{
+.font-title_text{
     
     position:absolute;
     
     width:700px;    
-    height:700px;    
+    height:650px;    
     margin:20px;
     
     text-align:center;    
     line-height:700px;
     
-    left:50%;    
+    left:49%;    
     top:40%;
     
     transform: translate3d(-50%,-50%,0);
 
     font-size: 60px;    
     color: #c0e1f8;    
+    font-weight:bold;   
+}
+
+.font-sub_text{
+    position:absolute;
+    
+    width:800px;    
+    height:450px;    
+    margin:20px;
+    
+    text-align:center;    
+    line-height:700px;
+    
+    left:49%;    
+    top:40%;
+    
+    transform: translate3d(-50%,-50%,0);
+
+    font-size: 20px;    
+    color: #fefefe;    
     font-weight:bold;   
 }
