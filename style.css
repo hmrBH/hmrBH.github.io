@@ -1,0 +1,33 @@
+img#bg{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    -webkit-filter: blur(9px);    
+    -moz-filter: blur(9px);    
+    -o-filter: blur(9px);    
+    -ms-filter: blur(9px);
+    
+    filter:blur(6px);
+}
+
+.font-content{
+    
+    position:absolute;
+    
+    width:700px;    
+    height:700px;    
+    margin:20px;
+    
+    text-align:center;    
+    line-height:700px;
+    
+    left:50%;    
+    top:40%;
+    
+    transform: translate3d(-50%,-50%,0);
+
+    font-size: 60px;    
+    color: #c0e1f8;    
+    font-weight:bold;   
+}
