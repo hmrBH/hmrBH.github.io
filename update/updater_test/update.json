@@ -21,9 +21,9 @@
     ],
     "update": [
       {
-        "name": "updater.exe",
-        "size": 138752,
-        "sha256": "4bfa9bfdbf2a5abf75d0df23f8f7afad0cb25014e99bc7f95e11ec9b6e7726ff"
+        "name": "old_file.txt",
+        "size": 3523520,
+        "sha256": "c44fadc4c810f856467330a4834d7a66577f16f03ce59877ca13514b432780c4"
       }
     ]
   },
