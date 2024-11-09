@@ -1,9 +1,9 @@
 ﻿{
   "version":
   {
-    "major": 0,
-    "minor": 1,
-    "patch": 1,
+    "major": 3,
+    "minor": 0,
+    "patch": 3,
     "build": 0,
     "channel": "stable",
     "publish_date": "UTC+8 2024-11-8 8:30",
@@ -21,9 +21,24 @@
     ],
     "update": [
       {
-        "name": "old_file.txt",
-        "size": 3523520,
-        "sha256": "c44fadc4c810f856467330a4834d7a66577f16f03ce59877ca13514b432780c4"
+        "name": "updater.exe",
+        "size": 138752,
+        "sha256": "4bfa9bfdbf2a5abf75d0df23f8f7afad0cb25014e99bc7f95e11ec9b6e7726ff"
+      },
+      {
+        "name": "updater.dll",
+        "size": 17920,
+        "sha256": "c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4"
+      },
+      {
+        "name": "DrawStudentID.exe",
+        "size": 91457120,
+        "sha256": "e7c4c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7c7"
+      },
+      {
+        "name": "DrawStudentID.console.exe",
+        "size": 107520,
+        "sha256": "c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4c4"
       }
     ]
   },
