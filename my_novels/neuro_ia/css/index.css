@@ -1,0 +1,76 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    position: relative; /* 使 body 成为相对定位的容器 */
+}
+#top-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+#top-controls button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: inherit; /* 继承父元素的字体大小 */
+}
+#novel-container {
+    max-width: 800px;
+    margin: 70px auto 20px; /* 上边距调整为 70px 以避免被顶部控件遮挡 */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#novel-text {
+    line-height: 1.6;
+    font-size: 18px;
+}
+#controls {
+    position: fixed; /* 固定位置 */
+    top: 50%; /* 垂直居中 */
+    right: 20px; /* 距离右侧 20px */
+    transform: translateY(-50%); /* 垂直居中微调 */
+    display: flex;
+    flex-direction: column; /* 竖向排列 */
+    gap: 10px; /* 按钮之间的间距 */
+}
+button {
+    padding: 10px 20px;
+    max-width: 300px;
+    cursor: pointer;
+    font-size: inherit; /* 继承父元素的字体大小 */
+}
+
+.default_theme {
+    background-color: #E8E3D7;
+    color: #181717;
+}
+
+.default_reader_theme {
+    background-color: #F3EFE6;
+}
+
+.black_theme {
+    background-color: #0A0A0A;
+    color: #8e8e8d;
+}
+
+.black_reader_theme {
+    background-color: #292929;
+}
+
+/* 提高 #novel-container 的特异性 */
+body.default_theme #novel-container {
+    background-color: #F3EFE6;
+}
+
+body.black_theme #novel-container {
+    background-color: #201f1f;
+}

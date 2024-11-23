@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel Reader</title>
+    <link type="text/css" rel="stylesheet" href="../css/index.css">
+</head>
+<body class="default_theme" data-the-first="false" data-the-end="true">
+
+<div id="top-controls">
+    <div>
+        <button id="prev-chapter" onclick="goToPreviousChapter('../chapter_02/index.html')">Previous Chapter</button>
+        <button onclick="decreaseFontSize()">A-</button>
+    </div>
+    <div>
+        <button onclick="increaseFontSize()">A+</button>
+        <button id="next-chapter" onclick="goToNextChapter()">Next Chapter</button>
+    </div>
+</div>
+
+<div id="novel-container" class="default_reader_theme">
+    <div id="novel-text">
+        <h1>Chapter 3</h1>
+        Your novel text goes here...
+    </div>
+</div>
+
+<div id="controls">
+    <button onclick="switchTheme('default')">Default</button>
+    <button onclick="switchTheme('black')">Black</button>
+</div>
+<script src="../js/index.js"></script>
+</body>
+</html>
